@@ -268,6 +268,10 @@ or [Google Drive](https://drive.google.com/drive/folders/1RR50EJYGIHaUYwq4NtK7dx
 
 Download our models from [Baidu Disk](https://pan.baidu.com/s/13zNqyKuxvLBiQunIxG_VhQ?pwd=cyh2) (code: `cyh2`) or [Google Drive](https://drive.google.com/drive/folders/1ynK5hfQachzc8y96ZumhkPPDXzHJwaQV?usp=drive_link). Put them in folder `pretrained_weights`
 
+Modification for ExDark dataset:
+
+- Edit the input path "dataroot_lq" in Options/Retinexformer_ExDark.yml
+
 ````shell
 # activate the environment
 conda activate Retinexformer
