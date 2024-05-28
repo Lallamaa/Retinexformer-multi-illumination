@@ -280,6 +280,7 @@ conda activate Retinexformer
 # ExDark (using LOL-v1 pretrained weights - can adjust accordingly)
 python3 Enhancement/test_from_dataset.py --opt Options/RetinexFormer_ExDark.yml --weights pretrained_weights/LOL_v1.pth --dataset LOL_v1
 
+```
 
 - #### Self-ensemble testing strategy
 We add the self-ensemble strategy in the testing code to derive better results. Just add a `--self_ensemble` action at the end of the above test command to use it.
