@@ -298,7 +298,7 @@ python3 Enhancement/test_from_dataset.py --opt Options/RetinexFormer_LOL_v2_real
 
 # LOL-v2-synthetic
 python3 Enhancement/test_from_dataset.py --opt Options/RetinexFormer_LOL_v2_synthetic.yml --weights pretrained_weights/LOL_v2_synthetic.pth --dataset LOL_v2_synthetic --GT_mean
-````
+```
 
 - #### Evaluating the Params and FLOPS of models
   We have provided a function `my_summary()` in `Enhancement/utils.py`, please use this function to evaluate the parameters and computational complexity of the models, especially the Transformers as
@@ -392,3 +392,4 @@ bash train_multigpu.sh Options/MST_Plus_Plus_NTIRE_8x1150.yml 0,1,2,3,4,5,6,7 43
   year={2022}
 }
 ```
+````
