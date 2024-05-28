@@ -273,7 +273,7 @@ Modification for ExDark dataset:
 
 - Edit the input path "dataroot_lq" in Options/Retinexformer_ExDark.yml
 
-````shell
+```shell
 # activate the environment
 conda activate Retinexformer
 
@@ -283,11 +283,11 @@ python3 Enhancement/test_from_dataset.py --opt Options/RetinexFormer_ExDark.yml 
 ```
 
 - #### Self-ensemble testing strategy
-We add the self-ensemble strategy in the testing code to derive better results. Just add a `--self_ensemble` action at the end of the above test command to use it.
 
+  We add the self-ensemble strategy in the testing code to derive better results. Just add a `--self_ensemble` action at the end of the above test command to use it.
 
 - #### The same test setting as LLFlow, KinD, and recent diffusion models
-We provide the same test setting as LLFlow, KinD, and recent diffusion models. Please note that we do not suggest this test setting because it uses the mean of ground truth to enhance the output of the model. But if you want to follow this test setting, just add a `--GT_mean` action at the end of the above test command as
+  We provide the same test setting as LLFlow, KinD, and recent diffusion models. Please note that we do not suggest this test setting because it uses the mean of ground truth to enhance the output of the model. But if you want to follow this test setting, just add a `--GT_mean` action at the end of the above test command as
 
 ```shell
 # LOL-v1
@@ -392,4 +392,7 @@ bash train_multigpu.sh Options/MST_Plus_Plus_NTIRE_8x1150.yml 0,1,2,3,4,5,6,7 43
   year={2022}
 }
 ```
-````
+
+```
+
+```
