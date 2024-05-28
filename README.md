@@ -58,6 +58,7 @@ python setup.py develop --no_cuda_ext
 
 Download dataset to "data" folder.
 
+<details close>
 <summary><b> Then organize these datasets as follows: </b></summary>
 
 ```
